@@ -1,0 +1,329 @@
+
+/********************
+General - MeetAmba.php
+*********************/
+
+/********************
+First Area 
+*********************/
+.first-area-meet{
+	background:url('../images/meetamba/sec1.jpg'); background-repeat: no-repeat; 
+	padding-top: 40px;
+	background-size:cover; 
+	height: 728px;
+}
+.navbar-inverse {
+	background-color:rgba(0,0,0,.0);
+	border-color:transparent;
+	border-radius: 0px !important;
+	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:#fff;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background-color: rgba(0,0,0,.5) !important;
+	border-bottom: 3px solid #FFF;
+}
+
+.nav-search {
+	background-color: transparent;
+}
+.search-btn {
+	background-color: transparent;
+	border-color: transparent;
+	color: #fff;
+}
+.logo-area{
+	text-align: center; 
+	padding-bottom: 40px;
+}
+.logo-text-holder{
+	text-align: center;
+}
+.logo-text-meet {
+	color:#fff; 
+	text-transform:uppercase; 
+	font-weight: bold; 
+	line-height: 30px; 
+	letter-spacing: 3px; 
+	font-size: 64px;
+	width: 50%; 
+	border-top: 1px solid #fff; 
+	margin: 0px auto; 
+	padding: 45px 0px;
+}
+.nav > li.dropdown.open .dropdown-menu {
+	border-top: 1px solid white;
+	top: 71%;
+
+}
+
+.dropdown-toggle{
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+/********************
+Second Area
+*********************/
+.second-area-bkg {
+	padding: 0px; 
+	height: auto;
+}
+.second-area-bkg{
+	width: 100%;
+}
+
+.second-area-bkg-img{
+	width: 100%;
+}
+
+/********************
+Third Area
+*********************/
+.left {
+	text-align: center;
+}
+
+.left-text {
+	font-weight: bold; 
+	font-size: 60px; 
+	text-transform:uppercase;
+	margin-top: 55px; 
+	color: #007a89;
+}
+
+.right {
+	padding-bottom: 10px;
+}
+
+.right-div{
+	border-left: 1px solid #000; 
+	margin-top: 55px; 
+	margin-bottom: 55px; 
+	padding-left: 40px;
+}
+
+.right-div-1{
+	letter-spacing:2px; 
+	color: #006067; 
+	font-weight: bold;
+}
+
+.right-div-2 {
+	letter-spacing: 2px;
+}
+
+.right-div-3 {
+	background-color: transparent; 
+	border: 1px solid #006067; 
+	color: #006067;
+	padding: 5px 20px;
+}
+
+/********************
+Fourth Area
+*********************/
+.fourth-area-holder-meet {
+	padding: 0px 0px;
+	display: flex;
+}
+
+.fourth-area-left{
+	background:url('../images/general/sec4.jpg'); 
+	height: inherit; 
+	text-align: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	padding: 25% 0%;
+}
+
+.fourth-left-text {
+	font-size:50px; 
+	letter-spacing:6px; 
+	color: #fff;  
+	text-transform: uppercase;
+}
+
+.fourth-area-right {
+	background-color: #d8d1c9; 
+	height: inherit; 
+	padding-left: 5%; 
+	padding-top: 5%;
+}
+
+.right-p {
+	color:#006067; 
+	font-size: 20px;
+	padding: 0% 20%;
+
+}
+.right-p-head {
+	color: #007a89;
+	font-weight: bold;
+	font-size:33px;
+	padding-left: 5%;
+	letter-spacing: 3px;
+	padding-bottom: 10px;
+}
+
+.right-a {
+	font-weight: bold; 
+	color:#006067;
+}
+
+.fourth-area-right-meet {
+	
+}
+/********************
+Fifth Area
+*********************/
+.fifth-area-holder{
+	padding: 0px;
+	margin-bottom: 0%;
+}
+
+.fifth-area-img{
+	width: 100%;
+}
+
+/********************
+Sixth Area
+*********************/
+.sixth-area {
+	display: flex;
+}
+.sixth-area-holder {
+	padding: 0px 0px;
+}
+
+.sixth-area-left{
+	background:url('../images/general/sec7.jpg'); 
+	height: inherit; 
+	text-align: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	padding: 25% 0%;
+}
+
+.sixth-left-text {
+	font-size:50px; 
+	letter-spacing:6px; 
+	color: #fff;  
+	text-transform: uppercase;
+}
+
+.sixth-area-right {
+	background-color: #d8d1c9; 
+	height: inherit; 
+	padding-left: 5%; 
+	padding-top: 5%;
+	height: 100%;
+}
+
+.right-p {
+	color:#006067; 
+	font-size: 20px;
+}
+.right-a {
+	font-weight: bold; 
+	color:#006067;
+}
+
+.sixth-area-right {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/********************
+Media Queries Area
+*********************/
+
+@media only screen and (max-width: 991px) {
+	.fourth-area-left{
+		background:url('../images/general/sec4.jpg'); 
+		height: inherit; 
+		text-align: center; 
+		background-repeat: no-repeat; 
+		background-size: cover; 
+		padding: 15% 0%;
+	}
+	.fourth-area-holder {
+		display: initial !important;
+	}
+
+	.fourth-area-right-links {
+		padding-left: 5%;
+		padding-bottom: 2%;
+	}
+	.right-div{
+		border-left: none;
+		padding-left: 3%;
+	}
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+.fourth-area-left-meetamba {
+	background:url('../images/meetamba/sec2.jpg'); 
+	height: inherit; 
+	text-align: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	padding: 25% 0%;
+}

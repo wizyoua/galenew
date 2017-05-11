@@ -1,5 +1,16 @@
+/*   
+Theme Name: Amba Development
+Theme URI: http://www.dwgreen.com/
+Description: Personal Website for Gale Leadership.
+Author: DW Green Co. 
+Author URI: http://dwgreen.com/
+Version: 1.0
+.
+General comments/License Statement if any.
+.
+*/
 /********************
-General
+General - Index.PHP
 *********************/
 .wrap-cont {
 	width: 100%;
@@ -19,13 +30,18 @@ First Area + Navbar
 .first-area{
 	background:url('../images/general/bkg.jpg'); background-repeat: no-repeat; 
 	background-size:cover; 
-	height: auto;
+	height: 728px;
 }
 .navbar-inverse {
 	background-color:rgba(0,0,0,.0);
 	border-color:transparent;
-	border-bottom: 1px solid #fff;
 	border-radius: 0px !important;
+	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
 .navbar-inverse .navbar-nav>li>a {
 	color:#fff;
@@ -48,10 +64,63 @@ First Area + Navbar
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
 	background-color: rgba(0,0,0,.5) !important;
+	border-bottom: 3px solid #FFF;
 }
 
 .nav-search {
 	background-color: transparent;
+}
+.nav > li.dropdown.open .dropdown-menu {
+	padding-bottom: 0px;
+}
+.dropdown-menu>li{
+	padding: 3px 20px;
+    padding-bottom: 0px;
+}
+.dropdown-menu>li>a {
+    border-bottom: 5px solid white;
+    width: 52%;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.nav > li.dropdown.open { 
+	position: static; 
+}
+.nav > li.dropdown.open .dropdown-menu {
+	display:table; 
+	width: 100%; 
+	text-align: 
+	center; 
+	left:0; 
+	right:0; 
+	background-color: rgba(255,255,255,.3);
+}
+
+.dropdown-menu>li { 
+	display: table-cell; 
+}
+
+.dropdown-menu li:hover {
+	background-color: transparent;
+	
+}
+
+.dropdown-menu>li>a{
+	color: #fff !important;
+}
+.dropdown-menu>li>a:hover {
+	background-color: transparent;
+	border-bottom: 1px solid #fff;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+	background-color: rgba(255,255,255,.3);
 }
 .search-btn {
 	background-color: transparent;
@@ -60,6 +129,7 @@ First Area + Navbar
 }
 .logo-area{
 	text-align: center; 
+	padding-top: 10%;
 	padding-bottom: 40px;
 }
 .logo-text-holder{
@@ -79,11 +149,11 @@ First Area + Navbar
 /********************
 Second Area
 *********************/
-.second-area-bkg {
+.second-area-bkg-meet {
 	padding: 0px; 
 	height: auto;
 }
-.second-area-bkg{
+.second-area-bkg-meet{
 	width: 100%;
 }
 
@@ -94,6 +164,10 @@ Second Area
 /********************
 Third Area
 *********************/
+.third-area {
+	padding: 3% 0%;
+}
+
 .left {
 	text-align: center;
 }
@@ -103,6 +177,7 @@ Third Area
 	font-size: 60px; 
 	text-transform:uppercase;
 	margin-top: 55px; 
+	color: #007a89;
 }
 
 .right {
@@ -110,11 +185,13 @@ Third Area
 }
 
 .right-div{
-	border-left: 1px solid #ddd; 
+	border-left: 1px solid #000; 
 	margin-top: 55px; 
 	margin-bottom: 55px; 
 	padding-left: 40px;
 }
+
+
 
 .right-div-1{
 	letter-spacing:2px; 
@@ -165,6 +242,88 @@ Fourth Area
 }
 
 .right-p {
+	font-weight: bold; 
+	color:#006067;
+	font-size: 23px;
+	text-transform: uppercase;	
+	letter-spacing: 3px;
+}
+
+.right-quote {
+	font-size: 16px;
+	font-style: italic;
+	color: #007a89;
+}
+.right-desc {
+	font-size: 18px;
+	color:#000;
+	letter-spacing: 2px;
+	font-weight: 200;
+}
+.right-price {
+	font-size: 18px;
+	color:#000;
+	letter-spacing: 2px;
+}
+
+.right-date {
+	font-size: 20px;
+	color: #007a89;
+	font-weight: lighter;
+}
+
+.fourth-area-right {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
+/********************
+Fifth Area
+*********************/
+.fifth-area-holder{
+	padding: 0px;
+	margin-bottom: 0%;
+}
+
+.fifth-area-img{
+	width: 100%;
+}
+
+/********************
+Sixth Area
+*********************/
+.sixth-area {
+	display: flex;
+}
+.sixth-area-holder {
+	padding: 0px 0px;
+}
+
+.sixth-area-left{
+	background:url('../images/general/sec7.jpg'); 
+	height: 100%; 
+	text-align: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	padding: 25% 0%;
+}
+
+.sixth-left-text {
+	font-size:50px; 
+	letter-spacing:6px; 
+	color: #fff;  
+	text-transform: uppercase;
+}
+
+.sixth-area-right {
+	background-color: #d8d1c9; 
+	height: inherit; 
+	padding-left: 5%; 
+	padding-top: 5%;
+	height: 100%;
+}
+
+.right-p {
 	color:#006067; 
 	font-size: 20px;
 }
@@ -173,33 +332,43 @@ Fourth Area
 	color:#006067;
 }
 
-/********************
-Fifth Area
-*********************/
-.fifth-area-holder{
-	padding: 0px;
+.sixth-area-right {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
-.fifth-area-img{
-	width: 100%;
-}
+
 /********************
 Media Queries Area
 *********************/
 
 @media only screen and (max-width: 991px) {
-	.fourth-area-left{
-		background:url('../images/general/sec4.jpg'); 
-		height: inherit; 
-		text-align: center; 
-		background-repeat: no-repeat; 
-		background-size: cover; 
-		padding: 15% 0%;
-	}
+	
 	.fourth-area-holder {
 		display: initial !important;
 	}
+
+	.fourth-area-right-links {
+		padding-left: 5%;
+		padding-bottom: 2%;
+	}
+	.right-div{
+		border-left: none;
+		padding-left: 3%;
+	}
 }
+
+@media only screen and (max-width: 1091px) {
+
+	.sixth-area-right {
+		height: inherit;
+	}
+
+	.sixth-area-left{		
+		height: inherit; 		
+	}
+}
+
 
 /* carousel */
 #quote-carousel 
@@ -220,16 +389,17 @@ Media Queries Area
 /* Previous button  */
 #quote-carousel .carousel-control.left 
 {
-  left: -12px;
+  left: 0px;
 }
 /* Next button  */
 #quote-carousel .carousel-control.right 
 {
-  right: -12px !important;
+  right: 0px !important;
 }
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators 
 {
+  display: none;
   right: 50%;
   top: auto;
   bottom: 0px;
@@ -260,21 +430,108 @@ Media Queries Area
     margin-bottom: 10px;
 }
 
-.item blockquote p:before {
+/*.item blockquote p:before {
     content: "\f10d";
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
-}
+}*/
 
 .carousel-control.left {
 	background-image: none;
 }
 #quote-carousel .carousel-control.left i {
 	float: left;
+	padding: 10px 5px;
+    background-color: #006067;
+    color: #fff;
 }
 #quote-carousel .carousel-control.right i {
+	float: right;
+	padding: 10px 5px;
+    background-color: #006067;
+    color: #fff;
+}
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel2 .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 50%;
+}
+/* Previous button  */
+#quote-carousel 2.carousel-control.left 
+{
+  left: 0px;
+}
+/* Next button  */
+#quote-carousel2 .carousel-control.right 
+{
+  right: 0px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel2 .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel2 .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel2 .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel2 img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+/*.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+*/
+.carousel-control.left {
+	background-image: none;
+}
+#quote-carousel2 .carousel-control.left i {
 	float: left;
+	padding: 10px 5px;
+    background-color: #006067;
+    color: #fff;
+}
+#quote-carousel2 .carousel-control.right i {
+	float: right;
+	padding: 10px 5px;
+    background-color: #006067;
+    color: #fff;
 }
 
 
@@ -283,7 +540,7 @@ Media Queries Area
 */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media only screen and (min-width: 768px) { 
     #quote-carousel 
     {
       margin-bottom: 0;
@@ -293,7 +550,7 @@ Media Queries Area
 }
 
 /* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) { 
+@media only screen and (max-width: 768px) { 
     
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
     
@@ -312,3 +569,14 @@ Media Queries Area
         height: 20px;
     }
 }
+
+@media only screen and (max-width: 844px) { 
+    .logo-area img {
+    	display: none;
+    }
+    
+    
+}
+
+
+
